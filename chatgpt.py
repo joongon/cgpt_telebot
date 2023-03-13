@@ -7,10 +7,9 @@ from telegram.ext import MessageHandler, Filters
 import re
 
 
-TOKEN = "5812469218:AAFwpVToM80qpXewroHW9Ll3vMRIIYjsbfg"
+TOKEN = "YOUR TOKEN"
+API_KEY = "YOUR API_KEY"
 #bot : img_ai_2023_bot
-# API_KEY = "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"
-API_KEY = "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"
 # openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.api_key = API_KEY
 # model = ""
